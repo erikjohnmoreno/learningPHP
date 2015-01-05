@@ -1,0 +1,14 @@
+<?php
+function doubler(&$value)
+{
+echo $value;
+echo "\n";
+$value = $value << 1;
+}
+
+$a = 3;
+doubler($a);
+
+echo "$a\n";
+
+?>
