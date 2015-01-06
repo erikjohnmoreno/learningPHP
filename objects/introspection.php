@@ -108,7 +108,7 @@ class Introspection
 			$child = new $class;
 
 			if (get_parent_class($child) == get_class($object)) {
-				$childre[] = $class;
+				$children[] = $class;
 			}
 		}
 		return $children;
