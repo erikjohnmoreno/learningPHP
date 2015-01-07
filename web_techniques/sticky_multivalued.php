@@ -16,7 +16,7 @@ function makeCheckboxes($name, $query, $options)
 	foreach ($options as $value => $label) {
 		$checked = in_array($value, $query) ? "checked" : '';
 
-		echo "<input type=\"checkbox\" name=\"{$name}\" value=\"$value\" $checked />";
+		echo "<input type=\"checkbox\" name=\"{$name}[]\" value=\"$value\" $checked />";
 		echo "$label <br />\n";
 	}
 }
@@ -40,7 +40,7 @@ $personalityAttributes = array(
  <?php if(array_key_exists('s', $_GET)){
 
 
- 	$description = $_GET['attributes'];
+ 	$description = join('', $_GET['attributes']);
  
  	echo "You have a $description personality.";
  } ?>
