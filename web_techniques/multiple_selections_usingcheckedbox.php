@@ -1,7 +1,7 @@
 <html>
 <head><title>Personality</title></head>
 <body>
-<form action="<?php $_SERVER['PHP_SELF']; ?>" method="GET">
+<form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="GET">
 Select your personality attributes:<br />
 <input type="checkbox" name="attributes[]" value="perky" /> Perky<br />
 <input type="checkbox" name="attributes[]" value="morose" /> Morose<br />
