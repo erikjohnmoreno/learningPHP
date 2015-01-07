@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<?php
+	
 $colors = array('black' => "#000000",
  				'white' => "#ffffff",
  				'red' => "#ff0000",

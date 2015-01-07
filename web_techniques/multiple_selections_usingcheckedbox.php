@@ -16,5 +16,6 @@ Select your personality attributes:<br />
 $description = join (' ', $_GET['attributes']);
 echo "You have a {$description} personality.";
 } ?>
+
 </body>
 </html>

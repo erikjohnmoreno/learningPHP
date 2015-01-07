@@ -4,6 +4,7 @@
 	<title>Select Your Color</title>
 </head>
 <body>
+
 	<form action="prefs_session.php" method="post">
 		<p>Background: 
 			<select name="background">

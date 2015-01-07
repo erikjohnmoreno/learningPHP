@@ -5,6 +5,7 @@
 </head>
 <body>
 	<?php
+	
 	session_start();
 
 	$colors = array('black' => "#000000",

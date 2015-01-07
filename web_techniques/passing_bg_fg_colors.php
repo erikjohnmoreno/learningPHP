@@ -3,6 +3,7 @@
 <head>
 	<title>YEAH HAHAHA</title>
 	<?php
+	
 	$background = $_POST['passbackground'];
 	$foreground = $_POST['passforeground'];
 

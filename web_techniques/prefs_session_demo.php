@@ -2,6 +2,7 @@
 session_start();
 $backgroundName = $_SESSION['backgroundName'];
 $foregroundName = $_SESSION['foregroundName'];
+
 ?>
 
 <html>
@@ -15,6 +16,9 @@ $foregroundName = $_SESSION['foregroundName'];
 	you bought it!</p>
 	<p>Would you like to <a href="colors.php">change your preferences?</a></p>
 	</body>
+
+
+
 </html>
 
 
