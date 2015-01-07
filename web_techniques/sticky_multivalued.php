@@ -38,7 +38,10 @@ $personalityAttributes = array(
  </form>
 
  <?php if(array_key_exists('s', $_GET)){
- 	$description = join('', $_GET['attributes']);
+
+
+ 	$description = $_GET['attributes'];
+ 
  	echo "You have a $description personality.";
  } ?>
 </body>
