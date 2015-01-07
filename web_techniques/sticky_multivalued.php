@@ -16,7 +16,7 @@ function makeCheckboxes($name, $query, $options)
 	foreach ($options as $value => $label) {
 		$checked = in_array($value, $query) ? "checked" : '';
 
-		echo "<input type=\"checkbox\" name=\"{$name}[]\" value=\"$value\" $checked />";
+		echo "<input type=\"checkbox\" name=\"{$name}[]\" value=\"$label\" $checked />";
 		echo "$label <br />\n";
 	}
 }
